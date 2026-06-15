@@ -1,5 +1,5 @@
 name: Bug report - form
-description: Create a report to help us improve
+description: Create a report to help us improve (visual template)
 title: "[BUG] "
 labels: ["type-bug"]
 body:
