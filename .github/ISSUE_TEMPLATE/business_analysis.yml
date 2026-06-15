@@ -1,0 +1,70 @@
+name: Business Analysis
+description: Document business requirements, process flows, or data needs
+title:
+  required: true
+labels: ["type-documentation"]
+body:
+  - type: input
+    id: requirement_id
+    attributes:
+      label: Requirement ID
+      description: A unique identifier for this requirement (e.g., FCA-REQUIREMENT-001)
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Brief description of the business need or process being documented.
+    validations:
+      required: true
+
+  - type: textarea
+    id: stakeholders
+    attributes:
+      label: Stakeholders Involved
+      description: Primary User Role and Other Affected Parties
+    validations:
+      required: true
+
+  - type: textarea
+    id: process_description
+    attributes:
+      label: Process Description
+      description: Current state vs desired future state. Use diagrams if helpful.
+    validations:
+      required: true
+
+  - type: textarea
+    id: functional_requirements
+    attributes:
+      label: Functional Requirements
+      description: One requirement per line with FR number prefix
+    validations:
+      required: true
+
+  - type: textarea
+    id: data_requirements
+    attributes:
+      label: Data Requirements
+      description: Source systems and new fields or tables needed.
+    validations:
+      required: false
+
+  - type: textarea
+    id: audit_compliance
+    attributes:
+      label: Audit Compliance Considerations
+      description: Record retention requirements, audit trail needs, regulatory references such as ORC citations.
+    validations:
+      required: true
+
+  - type: textarea
+    id: validation_rules
+    attributes:
+      label: Validation Rules
+      description: Business rules that data must satisfy. One per line.
+    validations:
+      required: false
+
