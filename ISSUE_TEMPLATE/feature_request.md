@@ -1,24 +1,24 @@
 ---
-name: Feature Request
-about: Suggest an idea for this project
+name: Feature Request (Markdown)  
+about: Suggest a feature for improvement
 title: '[FEATURE] '
 labels: enhancement
 assignees: ''
 ---
 
-## Description
+## Summary
 
-A clear and concise description of the feature you'd like to see implemented.
+A clear and concise description of the feature.
 
 ## Business Justification
 
-How does this feature support Franklin County Auditor operations? What business problem will it solve?
+How does this feature support Franklin County Auditor operations?
 
 **Impact Analysis:**
 - Which audit workflow or process will be improved?
 - Will this affect public-facing services? If yes, please describe.
 
-## Implementation Considerations
+## Implementation Considerations  
 
 ### Data Privacy & Security
 - Does this change involve access to sensitive citizen data? 
@@ -32,26 +32,6 @@ How does this feature support Franklin County Auditor operations? What business 
 
 ## Acceptance Criteria
 
-A list of requirements that must be met for this feature to be considered complete:
-
-- [ ] Criterion 1 (e.g., User can export audit reports in CSV format)
-- [ ] Criterion 2
+- [ ] Criterion 1  
 - [ ] Automated tests cover ___% of new code
 - [ ] Documentation updated
-
-## Priority & Timeline
-
-**Business Value:** High/Medium/Low  
-**Target Release:** 
-
-**Stakeholders to Notify:**
-- Primary:
-- Additional:
-
-## Related Work
-
-Are there other feature requests or issues related to this? Link them here.
-
----
-
-*Thank you for your contribution to improving Franklin County Auditor services.*
