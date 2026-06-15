@@ -1,7 +1,6 @@
 name: Business Analysis
 description: Document business requirements, process flows, or data needs
-title:
-  required: true
+title: ''
 labels: ["type-documentation"]
 body:
   - type: input
