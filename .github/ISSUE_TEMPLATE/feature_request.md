@@ -1,7 +1,7 @@
 ---
-name: Feature Request (Markdown)
+name: Feature request
 about: Suggest a feature for improvement
-title: "[FEATURE] "
+title: "[FEAT] "
 labels: type-enhancement
 assignees: ""
 ---
@@ -38,4 +38,3 @@ How does this feature support Franklin County Auditor operations?
 - [ ] Criterion 1
 - [ ] Automated tests cover \_\_\_% of new code
 - [ ] Documentation updated
-

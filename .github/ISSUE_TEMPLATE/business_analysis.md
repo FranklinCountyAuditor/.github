@@ -1,16 +1,17 @@
 ---
-name: Business Analysis
+name: Business analysis
 about: Document business requirements, process flows, or data needs
-title: ''
-labels: 'type-documentation'
-assignees: ''
-
+title: ""
+labels: "type-documentation"
+assignees: ""
 ---
 
 ## Requirement ID
+
 A unique identifier for this requirement (e.g., FCA-REQUIREMENT-001)
 
 ## Summary
+
 Brief description of the business need or process being documented.
 
 ## Business Context
@@ -77,4 +78,3 @@ _Complete the following checklist before closing:_
 - [ ] Requirements reviewed with business stakeholders
 - [ ] Data mapping completed
 - [ ] Acceptance criteria defined
-
