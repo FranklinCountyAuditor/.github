@@ -1,17 +1,16 @@
 ---
 name: Business Analysis
 about: Document business requirements, process flows, or data needs
-title: "[BA] "
-labels: type-documentation
-assignees: ""
+title: ''
+labels: 'type-documentation'
+assignees: ''
+
 ---
 
 ## Requirement ID
-
 A unique identifier for this requirement (e.g., FCA-REQUIREMENT-001)
 
 ## Summary
-
 Brief description of the business need or process being documented.
 
 ## Business Context
@@ -23,11 +22,7 @@ Brief description of the business need or process being documented.
 
 ### Process Description
 
-Current state vs desired future state (use diagrams if helpful):
-
-```
-[Describe the workflow here with ASCII art or detailed steps]
-```
+Current state vs desired future state (use diagrams if helpful or link to visual graph):
 
 ## Functional Requirements
 
@@ -56,9 +51,9 @@ If applicable, list new data elements that need to be created.
 
 ## Audit & Compliance Considerations
 
-**Record Retention:** How long must records be kept?
-**Audit Trail:** What changes need to be logged?
-**Regulatory References:** Cite any statutes or regulations (e.g., ORC 57.11)
+- **Record Retention:** How long must records be kept?
+- **Audit Trail:** What changes need to be logged?
+- **Regulatory References:** Cite any statutes or regulations (e.g., ORC 57.11)
 
 ## Validation Rules
 
@@ -80,7 +75,6 @@ List any reports or dashboards required to support this feature:
 _Complete the following checklist before closing:_
 
 - [ ] Requirements reviewed with business stakeholders
-- [ ] Process mapped in BPMN notation (if complex)
 - [ ] Data mapping completed
 - [ ] Acceptance criteria defined
 
