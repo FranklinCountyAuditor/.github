@@ -1,9 +1,9 @@
 ---
 name: Business Analysis
 about: Document business requirements, process flows, or data needs
-title: '[BA] '
-labels: documentation, analysis
-assignees: ''
+title: "[BA] "
+labels: type-documentation
+assignees: ""
 ---
 
 ## Requirement ID
@@ -17,10 +17,12 @@ Brief description of the business need or process being documented.
 ## Business Context
 
 ### Stakeholders Involved
+
 - **Primary User**: [Role, e.g., Tax Clerk, Auditor III]
-- **Other Affected Parties**: 
+- **Other Affected Parties**:
 
 ### Process Description
+
 Current state vs desired future state (use diagrams if helpful):
 
 ```
@@ -34,20 +36,22 @@ Current state vs desired future state (use diagrams if helpful):
 
 ## Non-Functional Requirements
 
-| Category | Requirement | Priority |
-|----------|-------------|----------|
-| Performance | Response time < 5 seconds for ___ operations | High |
+| Category     | Requirement                                          | Priority |
+| ------------ | ---------------------------------------------------- | -------- |
+| Performance  | Response time < 5 seconds for \_\_\_ operations      | High     |
 | Availability | System available during business hours (7am-6pm M-F) | Critical |
-| Security | All PII access logged and auditable | Critical |
+| Security     | All PII access logged and auditable                  | Critical |
 
 ## Data Requirements
 
 ### Source Systems
+
 - Mainframe (FICO): [Tables/Fields needed]
-- Property Database: [Tables/Fields needed]  
+- Property Database: [Tables/Fields needed]
 - Tax Records DB: [Table relationships]
 
 ### New Fields/Tables Required
+
 If applicable, list new data elements that need to be created.
 
 ## Audit & Compliance Considerations
@@ -59,6 +63,7 @@ If applicable, list new data elements that need to be created.
 ## Validation Rules
 
 Business rules that data must satisfy:
+
 - [ ] Rule 1 (e.g., Assessment value cannot exceed market value by more than 20%)
 - [ ] Rule 2
 - [Error handling when validation fails]
@@ -66,13 +71,16 @@ Business rules that data must satisfy:
 ## Reporting Needs
 
 List any reports or dashboards required to support this feature:
+
 - Report Name: Purpose, Frequency, Audience
 - Dashboard Elements: Key metrics to display
 
 ---
 
-*Complete the following checklist before closing:*
+_Complete the following checklist before closing:_
+
 - [ ] Requirements reviewed with business stakeholders
 - [ ] Process mapped in BPMN notation (if complex)
 - [ ] Data mapping completed
 - [ ] Acceptance criteria defined
+

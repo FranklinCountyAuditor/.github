@@ -1,9 +1,9 @@
 ---
 name: Bug Report (Markdown)
 about: File a bug report using markdown format
-title: '[BUG] '
-labels: bug
-assignees: ''
+title: "[BUG] "
+labels: type-bug
+assignees: ""
 ---
 
 ## Description
@@ -20,16 +20,17 @@ A clear and concise description of what the bug is.
 
 What did you expect to happen?
 
-## Actual Behavior  
+## Actual Behavior
 
 What actually happened?
 
 ## Environment Details
 
-- OS: 
-- Application Version: 
-- Database: 
+- OS:
+- Application Version:
+- Database:
 
 ## Additional Context
 
 Add any other context about the problem here.
+

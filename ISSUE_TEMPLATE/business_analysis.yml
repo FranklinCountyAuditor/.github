@@ -2,7 +2,7 @@ name: Business Analysis
 description: Document business requirements, process flows, or data needs
 title:
   required: true
-labels: ["documentation", "analysis"]
+labels: ["type-documentation"]
 body:
   - type: input
     id: requirement_id
@@ -67,3 +67,4 @@ body:
       description: Business rules that data must satisfy. One per line.
     validations:
       required: false
+
