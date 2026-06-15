@@ -1,0 +1,57 @@
+name: Feature Request
+description: Suggest an idea for this project
+title:
+  required: true
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear and concise description of the feature you'd like to see implemented.
+    validations:
+      required: true
+
+  - type: textarea
+    id: business_justification
+    attributes:
+      label: Business Justification
+      description: How does this feature support Franklin County Auditor operations? What business problem will it solve?
+    validations:
+      required: true
+
+  - type: checkbox
+    id: impact_analysis
+    attributes:
+      label: Impact Analysis Checklist
+      options:
+        - label: Which audit workflow or process will be improved?
+        - label: Will this affect public-facing services? If yes, please describe in additional context.
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation_considerations
+    attributes:
+      label: Implementation Considerations
+      description: Data privacy requirements, integration points, external dependencies
+    validations:
+      required: false
+
+  - type: checkbox
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria (check when complete)
+      options:
+        - label: Tests added/updated
+        - label: Documentation updated
+        - label: Performance requirements met
+        - label: Security review completed if applicable
+
+  - type: input
+    id: priority_timeline
+    attributes:
+      label: Priority & Timeline
+      description: Business Value (High/Medium/Low) and Target Release date
+    validations:
+      required: false
