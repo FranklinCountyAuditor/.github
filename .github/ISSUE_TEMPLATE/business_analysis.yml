@@ -1,6 +1,6 @@
 name: Business Analysis
 description: Document business requirements, process flows, or data needs
-title: ''
+title: "[BA] "
 labels: ["type-documentation"]
 body:
   - type: input
@@ -66,4 +66,3 @@ body:
       description: Business rules that data must satisfy. One per line.
     validations:
       required: false
-

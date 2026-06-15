@@ -1,7 +1,6 @@
 name: Feature Request
 description: Suggest an idea for this project
-title:
-  required: true
+title: "[FEAT] "
 labels: ["type-enhancement"]
 body:
   - type: textarea
@@ -55,4 +54,3 @@ body:
       description: Business Value (High/Medium/Low) and Target Release date
     validations:
       required: false
-
