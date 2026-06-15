@@ -19,13 +19,13 @@ body:
     validations:
       required: true
 
-  - type: checkbox
+  - type: textarea
     id: impact_analysis
     attributes:
       label: Impact Analysis Checklist
-      options:
-        - label: Which audit workflow or process will be improved?
-        - label: Will this affect public-facing services? If yes, please describe in additional context.
+      value: |
+        1. Which audit workflow or process will be improved?
+        2. Will this affect public-facing services? If yes, please describe in additional context.
     validations:
       required: true
 
@@ -37,7 +37,7 @@ body:
     validations:
       required: false
 
-  - type: checkbox
+  - type: checkboxes
     id: acceptance_criteria
     attributes:
       label: Acceptance Criteria (check when complete)
